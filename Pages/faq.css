@@ -1,0 +1,83 @@
+body{background: url("../Pictures/faq.jpg") no-repeat fixed center top; background-size:cover;margin:0;  font-family: serif, "Times New Roman", Times; height:2350px;}
+
+.header
+{	font-family: 'Josefin Sans', sans-serif;
+	padding:15px 15px 0 15px;
+	width:1220px;
+	height:50px;
+	background-color:rgba(0,0,0,0.8);
+	margin:auto;
+	position:relative;top:20px;
+}
+.firstlink
+{   font-family: 'Josefin Sans', sans-serif;
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+}
+.taps
+{
+	position:relative;
+	bottom:5px;	
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+a:hover 
+{	
+	text-decoration:underline;	
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+.firstlink:hover{text-decoration:none;}
+
+.title
+{	
+	width:1000px;
+	position:relative;top:50px;left:20px;
+	text-align:center;
+	font-size:80px;
+	color:rgba(236,119,0,1);
+	background-color:rgba(82,82,82,0.5);
+	margin:auto;	
+}
+
+ul{list-style-type:none;font-size:30px;}
+
+.Q
+{
+	background-color:rgba(193,41,46,0.5);
+	width:1000px;
+	text-indent: 50px;
+	margin:auto;
+}
+.un
+{
+	background-color:rgba(66,33,142,0.1);
+	width:1000px;
+	text-indent: 50px;
+	margin:auto;
+}
+
+.Que
+{	
+	color: #FFCB18;
+	font-size:40px;
+	text-align:center;
+
+}
+
+.Ans{color: #fffadf;}
+
+.footer
+{
+	position:relative;left:20px;
+	background:rgba(82,82,82,0.4);
+	color:#FFF;
+	text-align:center;
+	padding: 10px 0 ;
+	margin : auto ;
+	width:1000px;
+}
+

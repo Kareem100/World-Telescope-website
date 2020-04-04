@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    border: 1px solid red ;
+    height:2000px;
+    text-align: center;
+    background-color: #334252;
+}
+.intro
+{
+    margin:auto;
+    text-align: center;
+    background-image: url("../Pictures/back1.jpg");
+    font-size:30px;
+    color:gold;
+    width:800px;
+    transition: 5s;
+}
+
+.foundations
+{
+    margin:auto;
+    color:gold;
+    border:1px solid gold;
+    width:400px;
+}
+.name
+{
+    text-align: center;
+    color:#F78D3F;
+    transition:width 1s;
+    background: #A94CAF;
+    position:relative; left:100px;
+    width:200px;
+    transition-timing-function: 1inear;
+    border:2px solid gold;
+}
+.name:hover{width:250px;cursor:pointer;}
+.name:hover:after{content: attr(alternate);}
+
+.start
+{
+    text-decoration: none ;
+    font-size: 50px ;
+    color: rgba(253,95,0,1);
+    border: 2px groove gold ;
+    transition: 0.8s;
+}
+.start:hover
+{
+    font-size: 60px;
+    color:red;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+	  <meta name="description" content="WORLD TELESCOPE is a tourist site that offering many tours around the world">
+	  <meta name="keywords" content="wt">
+	  <title>Edit Page</title>
+	  <link rel="stylesheet" href="home.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">    
+	  <LINK REL="SHORTCUT ICON" HREF="../Pictures/icon.jpg">
+	  
+          <style>
+              tr{
+                height: 50px;
+                }
+                body{background:url("../Pictures/back3.jpg")  ; background-repeat: repeat;background-size: cover; height:100px;}
+
+                .intro
+                {width:1000px;height:50px;margin:auto;text-align:center;position:relative;
+                    border:4px groove silver; border-radius: 5px; ;top:20px;padding-top:20px;background-image:url('../Pictures/back.jpg');}
+                .ed{text-align: center; font-size:40px;margin:auto;position:relative;top:80px;left:40px;
+                    color:greenyellow;width:1250px;}
+                .box{text-align:center;margin:auto;height:40px;width:400px;border-radius: 5px;
+                        background:transparent;font-size:20px;border: 2px groove gold ;}
+
+                .sel{position:relative;right:-50px;top:88px;width:420px;} .sel2{position:relative;left:500px;width:400px;}
+                .btn
+                {width:100px;height:30px;background:rgba(253,95,0,0.6) ;margin:auto;position:relative;left:450px;top:-45px;
+                    cursor:pointer;border:3px groove green;font:20px bold;color:rgba(3,32,48,1)}
+                .btn:hover{ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);}
+
+                  tr:hover{transition:all .25s ease-in-out;background:#EEE;cursor:pointer;}
+                  #adm:hover{font-size: 0;}
+                  #adm:hover:after{content: attr(switch);font-size:30px;}
+
+          </style>
+    </head>
+
+   <body>
+
+		<!-- header-->
+		<div class="header">
+
+			<a href="#.html" class="firstlink"><i class="fa fa-home fa-lg"></i>WORLD TELESCOPE</a>
+            <a href="Admin.html" ID="adm" switch="Logout" style="position:relative;left:120px;" >Kareem</a>
+            <a href="International.html" class="taps" style="position:relative;left:200px;">International tours</a>
+			<a href="Local.html" class="taps" style="position:relative;left:220px;">Local tours</a>
+			<a href="Special Offers.html" class="taps" style="position:relative;left:240px;">Special offers</a>
+			<a href="Tickets.html" class="taps" style="position:relative;left:260px;">Flight tickets</a>
+			<a href="FAQ.html" class="taps" style="position:relative;left:280px;">FAQ</a>
+
+		</div>
+
+       <div class = "intro">
+
+           <h1>Admin Edit Page</h1>
+       </div>
+
+
+       <div class="ed">
+
+
+                <div class="sel">
+                <label>World Telescope offers:</label> <br>
+                <input type="text" id="offers" class="box" > <br>
+                </div>
+                <div class="sel2">
+                <label>Most visited:</label><br>
+                <input type="text" id="visits" class="box" ><br>
+                </div>
+
+                <button class="btn" onclick="tableRow();"> ADD </button>
+                <button class="btn" onclick="editSelected();"> Edit </button>
+                <button class="btn" onclick="removeSelected();"> Remove </button>
+
+
+       </div>
+
+		<div class="tail"  style="position:relative;top:120px;">
+
+
+            <table ID="table" style="background-color:rgba(235,237,236,0.5);">
+
+
+                    <tr>
+
+                        <th> World telescope offers </th>
+                        <th> Most visited: </th>
+	                    <th colspan="2"> Contact us </th>
+
+                        </tr>
+                        <tr>
+
+                            <td> <a href="International.html"> International tours</a> </td>
+                            <td> <a href="Istanbul.html"> Istanbul </td>
+                            <td colspan="2" > </br>contact with mobile phone </br></br></td>
+
+
+                        </tr>
+                        <tr>
+
+                            <td> <a href="Local.html" > Local tours</a> </td>
+                            <td> <a href="Sharm.html" > Sharm El-sheikh </a></td>
+                            <td>   Garden city</br> </td>
+                            <td>  </br>01280007500</br> </br></td>
+
+                        </tr>
+                        <tr>
+
+                            <td> <a href=""> Special tours</a> </td>
+                            <td> <a href="Beirut.html"> Beirut </td>
+                            <td>   Nasr city </td>
+                            <td>  </br>01280007600</br></br> </td>
+
+                        </tr>
+                        <tr>
+
+                            <td> <a href="Tickets.html"> Flight tickets</a> </td>
+                            <td> <a href=""> Maldives </td>
+                            <td> New cairo </td>
+                            <td> </br>01280007400</br></br> </td> </td>
+
+                        </tr>
+                        <tr>
+
+                            <td> <a href="#ref"> Contact us</a> </td>
+                            <td> <a href="Zurich.html"> Zürich </td>
+                            <td colspan="2"> </br>Contact with e-mail</br></br></td>
+
+                        </tr>
+                        <tr>
+
+                            <td><br> <a href="FAQ.html"> FAQ</a> <br><br></td>
+                            <td> <a href="Paris.html"> Paris </td>
+                            <td colspan="2"> world telescope@wt.com </td>
+                        </tr>
+
+
+            </table>
+
+                <div class="footer">
+
+                    Copyright &copy; 2019 All Rights Resereved To Bonus &trade; Team &reg;
+
+                </div>
+
+		</div>
+
+	 <script src="admin.js">
+         rel();
+    </script>
+
+
+
+   </body>
+
+</html>

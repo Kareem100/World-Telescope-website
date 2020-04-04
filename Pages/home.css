@@ -1,0 +1,261 @@
+/*this is 3lshan me2on4 feh msafaa ben el soraa we wl page*/
+*{margin:0;}
+
+/*this is body*/
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+	background:#DDD ;
+    height:1000px; /*2192*/
+}
+
+.icons
+{
+	position:relative;bottom:35px;left:550px; width:100px;margin:auto;
+}
+.fa-facebook {background: #3B5998;color: white;width:18px;height:18px;}
+.fa-twitter {background: #55ACEE;color: white;width:18px;height:18px;}
+.fa-instagram {background: #125688;color: white;width:18px;height:18px;}
+.fa-rss {background: #ff6600;color: white;width:18px;height:18px;}
+/*this is div bta3 el links */
+.header
+{
+	padding:15px 15px 0 15px;
+	width:1220px;
+	height:50px;
+	background-color:rgba(0,0,0,0.8);
+	margin:auto;/*border: 1px solid red;*/
+}
+
+/*these are links elly hya tabs(contact us, FAQ)*/
+.taps
+{
+	position:relative;
+	bottom:5px;
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+/*Admin tap*/
+#adm
+{
+    position:relative;
+    bottom:3px;
+    text-decoration: none;
+    font-size:25px;
+    color:rgba(246,0,60,1);
+    font-weight:bold;
+}
+#adm:hover{font-size: 0px;} #adm:hover:after{content: attr(switch);font-size:30px;}
+
+/*tis is first link  ely hwaa bta3 WORLD TELESCOPE*/
+.firstlink
+{
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+
+}
+
+/*lmaa to2f 3la links*/
+.taps:hover
+{
+	text-decoration:underline;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*lmaa to2f 3la WORLD TELESCOPE*/
+.firstlink:hover
+{
+	text-decoration:none;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+.welcome
+{
+	position:relative;
+	left:30px; top:20px;
+	margin:auto;
+	width:800px;
+}
+.wel
+{
+	font-size:40px;
+	letter-spacing:20px;
+	font-weight:bold;
+	padding-top:20px;
+	text-align:center;
+	color:rgba(255,80,47,1);
+	font-style:oblique;
+}
+.come
+{
+	font-size:20px;
+	text-align:center;
+	margin-top:20px;
+	color:rgba(188,132,32,1);
+}
+/*this is bar elly 3laa el shemall*/
+.bar
+{
+	margin:auto;
+	background-color:#EEE;
+	width:230px;
+	height:1060px;
+	position:relative; right: 510px ;top: 70px;
+}
+/* links login we register*/
+.user{
+   background-color:rgba(254,95,85,0.7);
+   color:white;
+   margin-left:15px ;
+   position:relative;top:30px;
+   text-decoration:none;
+   padding:10px;
+}
+
+/*this is paragraph bta3 contact us wee el nmr mobile elly fe el bar*/
+.p1{padding-left:8px;   position:relative;top:40px;} .swr{overflow:auto;}
+
+/*lmaa to2f 3laa login aw register*/
+.user:hover
+{
+	background-color:black;
+	color:white;
+}
+
+/*this is h3 bta3 ((search for ofeers)) elly fe el bar elly 3la el shemall*/
+h3
+{
+	font-size: 15px;
+	display:inline;
+	position:relative;top:35px;left:20px;
+}
+
+/*this is select elly fe el bar elly 3la el shemall*/
+select
+{	color: #555555;
+    width:200px;
+	height:30px;
+	margin:10px 0px 0px 10px;
+	font-size: 14px;
+	border: 1px solid #a94442;border-radius: 4px;
+	position:relative;top:40px;
+}
+
+/*div elly shael elswwr kolha*/
+.Images{margin:auto;position:relative;bottom:990px;left:165px;width:980px;height:380px;}
+#imag{background-color:rgba(30,227,207,1) ;}
+#image{background-color:rgba(255,181,73,1);}
+.img
+{
+	background-color:rgba(228,44,100,0.8);
+	width:300px;
+	margin:auto;
+	margin-right:25px;
+	float:left;
+}
+.img:hover{background-color:rgba(0,0,0,0.6);animation: shake 0.5s;animation-iteration-count: infinite;}
+#imag:hover{background-color:rgba(0,0,0,0.6);}
+#image:hover{background-color:rgba(0,0,0,0.6);}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  margin:auto;
+  position: relative;bottom:950px;left:150px;
+  width:950px;
+    outline: 5px groove gold ;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 40%;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: .6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {right: 0px; border-radius: 3px 0 0 3px;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover { background-color: rgba(0,0,0,0.8);}
+
+/* Caption text */
+.text {
+  color: silver;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  text-align: center;
+  width: 97.5%;
+  background-color: rgba(82,82,82,1);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  border: 1px solid red;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade { animation-name: fade; animation-duration: 1s;}
+@keyframes fade {from {opacity: 0.4} to {opacity: 1}}
+
+
+
+.tail{	position:relative;bottom:800px;}
+table
+{
+	background-color:rgba(242,244,246,1);
+	text-align:center;
+	border:1px groove red;
+	width:1255px;
+	margin:auto;
+}
+th{font-size:30px;color:rgba(82,82,82,1);}
+
+.footer
+{
+	background:#333;
+	color:#FFF;
+	text-align:center;
+	padding: 10px 0 ;
+	margin : 10px auto auto auto;
+	width:1349px;
+}

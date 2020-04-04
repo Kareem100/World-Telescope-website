@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+	  <meta name="description" content="WORLD TELESCOPE is a tourist site that offering many tours around the world">
+	  <meta name="keywords" content="wt">
+	  <title>World Telescope</title>
+	  <link rel="stylesheet" href="tickets.css">
+	      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+	  <LINK REL="SHORTCUT ICON" HREF="../Pictures/icon.jpg">
+	  <style></style>
+  </head>
+
+   <body>
+		<!-- image screen-->
+		<img src="../Pictures/back.jpg" width="100%" title="WORLD TELESCOPE">
+
+		<!-- header-->
+		<div class="header">
+
+			<a href="Home.html" class="firstlink"><i class="fa fa-home fa-lg"></i>WORLD TELESCOPE</a>
+			<a href="International.html" class="taps" style="position:relative;left:300px;">International tours</a>
+			<a href="Local.html" class="taps" style="position:relative;left:320px;">Local tours</a>
+			<a href="Special Offers.html" class="taps" style="position:relative;left:340px;">Special offers</a>
+			<a href="Tickets.html" class="taps" style="position:relative;left:360px;">Flight tickets</a>
+			<a href="FAQ.html" class="taps" style="position:relative;left:380px;">FAQ</a>
+
+		</div>
+
+		<!-- this is shmall bar....-->
+		<div class="bar">
+      <form >
+          <a href="Login.html" class="user">LOGIN</a>
+          <a href="Register.html" class="user">REGISTER</a><br><br>
+          <i style="position:relative;top:35px;left:20px;"class="fa fa-search fa-lg"></i>
+          <h3> Search for an offer </h3>
+          <select id="box1" required>
+           <option hidden>All sections</option>
+           <option value="international tourism">International Tourism</option>
+           <option value="local tours">Local tours</option>
+           <option value="special offers">Special Offers</option>
+          </select>
+          <select id="box2" required>
+          <option hidden>All Places</option>
+          </select>
+      </form>
+				<br><br><br><hr>
+				<p class="p1"><b>To contact with company</b><br>__________________<br><span><b>Contact with mobile phone</b><span><br>
+					 Mohandessen:&nbsp;&nbsp;&nbsp;&nbsp;01280007410<br>
+					 Nasr city:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01295144338<br>
+					 Garden city:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01280007611<br>__________________
+				</p><br>
+				<p class="p1"><span><b>Contact with Whats app </b><span><img src="../Pictures/wat.png"><br>
+					 Mohandessen:&nbsp;&nbsp;&nbsp;&nbsp;01280007191<br>
+					 Nasr city:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01221144337<br>
+					 Garden city:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01212144338<br>__________________
+				</p><br>
+			 <p class="p1"><span><b>contact with E-mail: </b>world telescope@wt.com<span><br>
+
+			 </p> <br>
+
+		</div>
+
+
+	<!-- Tickets Form (content)-->
+		<form class="content">
+
+			<header>  Book your ticket... </header>
+			<div class="con">
+				<label> Name </label> </br>
+				<input type="text" id="name" placeholder="Your name...">
+			</div>
+
+			<div class="con">
+				<label> Travel From </label> </br>
+				<input type="text" id="countryfrom"  placeholder="Country and the city intended to leave from...">
+			</div>
+
+			<div class="con">
+				<label> Travel To </label> </br>
+				<input type="text" id="countryto" placeholder="Country and the city intended to be visited...">
+			</div>
+
+			<div class="con">
+				<label> Individuals Number </label> </br>
+				<input type="number" id="individualsnumber" placeholder="eg:4 ...">
+			</div>
+
+			<div class="con">
+				<label> Leaving Date </label> </br>
+				<input type="text" id="leavingdate"placeholder="eg: 24/7/2019...">
+			</div>
+
+			<div class="con">
+				<label> Returning Date </label> </br>
+				<input type="text" id="returningdate" placeholder="eg: 24/8/2019...">
+			</div>
+
+			<div class="con">
+				<label> E-mail </label> </br>
+				<input type="text" id="email" placeholder="name@email.com">
+			</div>
+
+			<div class="con">
+				<label> Mobile/Telephone Number </label> </br>
+				<input type="text" id="mobile" placeholder="The Correct Telphone Number Is Important To Communicate With Our Clients ...">
+			</div>
+
+			<div class="con">
+				<label> Have You Traveled Before ? </label> </br>
+				<select class="sel">
+					<option> No </option><option>Yes Going Only</option><option>Yes Coming Only</option><option>Yes Going and Coming</option>
+				</select>
+			</div>
+			<div class="con">
+				<label> Agree To Layover During The Trip ? </label> </br>
+				<select class="sel"> <option>Yes I Agree</option><option>No I Dont Agree</option></select>
+			</div>
+
+			<div class="con">
+				<label> Nearest Branch </label> </br>
+				<select class="sel">
+			    <option>Mohandessen</option>
+					<option>Nasr city</option> <option>Garden city</option> <option>New Cairo</option> <option>Others</option>
+
+				</select>
+			</div>
+
+			<div class="con">
+				<label> Type Of Offer (The Programm) </label> </br>
+				<select class="sel">
+			 <option > Flight Tickets Only </option> <option> Booking Flights and Accommodation </option>
+				</select>
+			</div>
+
+			<div class="con">
+				<label> Notes </label>
+				<span style="font-weight:normal;font-size:13px;">
+				(number of children and their ages is very important to determine the price of any offer)
+				</span> </br>
+				<textarea id="notes" rows="5" cols="111" style="margin:auto;max-width:800px;max-height:80px;position:relative;left:30px;"></textarea>
+			</div>
+			</br>
+				<button type="submit" class="btn" style="cursor:pointer" onclick="submitt()"> Send Request </button>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button type="reset" class="btn" style="cursor:pointer"> Reset Default </button>
+
+		</form>
+
+
+	<div class="tail">
+			<table>	
+				<tr>
+
+					<th> World telescope offers </th>
+					<th> Most visited </th>
+					<th colspan="2"> Contact us </th>
+
+				</tr>
+				<tr>
+
+					<td> </br> </br> </td>
+					<td> </br> </br> </td>
+					<td> </br> </br> </td>
+
+				</tr>
+				<tr>
+
+					<td> <a href="International.html"> International tours</a> </td>
+					<td> <a href="Istanbul.html"> Istanbul </td>
+					<td colspan="2" > </br>contact with mobile phone </br></br></td>
+
+
+				</tr>
+				<tr>
+
+					<td> <a href="Local.html"> Local tours</a> </td>
+					<td> <a href="Sharm.html"> Sharm El-sheikh </td>
+					<td>   Garden city</br> </td>
+					<td>  </br>01280007500</br> </br></td>
+
+				</tr>
+				<tr>
+
+					<td> <a href="Special Offers.html"> Special tours</a> </td>
+					<td> <a href="Beirut.html"> Beirut </td>
+					<td>   Nasr city </td>
+					<td>  </br>01280007600</br></br> </td>
+
+				</tr>
+				<tr>
+
+					<td> <a href="Tickets.html"> Flight tickets</a> </td>
+					<td> <a href="Maldives.html"> Maldives </td>
+					<td> New cairo </td>
+					<td> </br>01280007400</br></br> </td> </td>
+
+				</tr>
+				<tr>
+
+					<td rowspan="2"> <a href="FAQ.html"> FAQ</a> </td>
+					<td> <a href="Zurich.html"> Zürich </td>
+					<td colspan="2"> </br>Contact with e-mail</br></br></td>
+
+				</tr>
+				<tr>
+
+					
+					<td> <a href="Paris.html"> Paris </td>
+					<td colspan="2"> world telescope@wt.com </td>
+				</tr>
+
+
+			</table>
+			<div class="footer">
+
+				Copyright &copy; 2019 All Rights Resereved To Bonus &trade; Team &reg;
+
+			</div>
+
+		</div>
+
+    <script>
+    document.getElementById("box1").onchange = function() {
+    document.getElementById("box2").innerHTML = ""; //clear s2 to avoid conflicts between options values
+    var opt =  document.createElement("option");
+    var opt0 = document.createElement("option");
+    var opt1 = document.createElement("option");
+    var opt2 = document.createElement("option");
+    var opt3 = document.createElement("option");
+    var opt4 = document.createElement("option");
+    var opt5 = document.createElement("option");
+    if (this.value == "international tourism") {
+        opt.textContent = "All Places";
+        opt0.textContent = "Istanbul";
+        opt1.textContent = "Zurich";
+        opt2.textContent = "Paris";
+        opt3.textContent = "Beirut";
+        opt4.textContent = "London";
+        opt5.textContent = "Athens";
+        document.getElementById("box2").appendChild(opt);
+        document.getElementById("box2").appendChild(opt0);
+        document.getElementById("box2").appendChild(opt1);
+        document.getElementById("box2").appendChild(opt2);
+        document.getElementById("box2").appendChild(opt3);
+        document.getElementById("box2").appendChild(opt4);
+        document.getElementById("box2").appendChild(opt5);
+    } else if (this.value == "special offers") {
+      opt.textContent = "All Places";
+      opt0.textContent = "Maldives";
+      opt1.textContent = "Mykonons";
+      opt2.textContent = "Sydney";
+      opt3.textContent = "Singapore";
+      opt4.textContent = "Hurgada";
+      opt5.textContent = "Dubai";
+      document.getElementById("box2").appendChild(opt);
+      document.getElementById("box2").appendChild(opt0);
+      document.getElementById("box2").appendChild(opt1);
+      document.getElementById("box2").appendChild(opt2);
+      document.getElementById("box2").appendChild(opt3);
+      document.getElementById("box2").appendChild(opt4);
+      document.getElementById("box2").appendChild(opt5);
+    }
+    }
+    document.getElementById("box2").onchange = function() {
+    if (this.value == "Istanbul") {
+    location.replace("Istanbul.html");
+    } else if (this.value == "Zurich") {
+      location.replace("Zurich.html");
+    }
+    else if (this.value == "Paris") {
+      location.replace("Paris.html");
+    }
+    else if (this.value == "Beirut") {
+      location.replace("Beirut.html");
+    }
+    else if (this.value == "London") {
+      location.replace("London.html");
+    }
+    else if (this.value == "Athens") {
+      location.replace("Athens.html");
+    }
+    else if (this.value == "Maldives") {
+    location.replace("maldives.html");
+    } else if (this.value == "Mykonons") {
+      location.replace("mykonos.html");
+    }
+    else if (this.value == "Sydney") {
+      location.replace("Sydney.html");
+    }
+    else if (this.value == "Singapore") {
+      location.replace("Singapore.html");
+    }
+    else if (this.value == "Hurgada") {
+      location.replace("Hurgada.html");
+    }
+    else if (this.value == "Dubai") {
+      location.replace("Dubai.html");
+    }
+    }
+    function submitt()
+    {
+          var name=document.getElementById("name");
+          var countryfrom=document.getElementById("countryfrom");
+          var countryto=document.getElementById("countryto");
+          var individualsnumber=document.getElementById("individualsnumber");
+          var leavingdate=document.getElementById("leavingdate");
+          var returningdate=document.getElementById("returningdate");
+          var email=document.getElementById("email");
+          var mobile=document.getElementById("mobile");
+
+          var reg=/[a-z]/,reg2=/[0-9]/,reg3=/^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))(\/)\d{4}$/,reg4=/[0-9]/;
+
+            if(!(name.value.match(reg))&&(name.value!="")){alert("Your name must have only characters");}
+            else if(!(countryfrom.value.match(reg))&&(countryfrom.value!="")){alert("There isnt any country of name like this!");}
+            else if(!(countryto.value.match(reg))&&(countryto.value!="")){alert("There isnt any country of name like this!");}
+            else if(!(individualsnumber.value.match(reg2))&&(individualsnumber.value!="")){alert("Please insert a number of individuals");}
+            else if(!(leavingdate.value.match(reg3))&&(leavingdate.value!=""))alert("Please insert a date in dd/mm/yyyy format");
+            else if(!(returningdate.value).match(reg3)&&(returningdate.value!=""))alert("Please insert a date in dd/mm/yyyy format");
+            else if(((email.value).search("@gmail.com")==-1 &&(email.value).search("@yahoo.com")==-1&&(email.value).search("@outlock.com")==-1)&&(email.value!=""))
+            {
+                confirm("You must input your E-mail location");
+            }    
+            else if(((email.value).search("@")<6 )&&(email.value!=""))
+            {
+                confirm("E-mail must has at least 6 characters");
+            }
+            
+            else if(!(mobile.value).match(reg4)&&(mobile.value!=""))alert("Please insert a phone number format");
+
+            else if ( (name.value=="") || (countryfrom.value=="") || (countryto.value=="") || (individualsnumber.value=="") || (leavingdate.value=="") || (returningdate.value=="") || (email.value=="") || (mobile.value=="") )
+            {
+                confirm("Please Fill The Empty Cells");
+            }
+
+            else
+            {
+                alert("SUCCESSFUL BOOKING!!\nThank you!\n\nWe will send a message to your e-mail as soon as possible.");
+            }
+    }
+    </script>
+
+   </body>
+
+</html>

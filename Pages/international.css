@@ -1,0 +1,171 @@
+/*this is 3lshan me2on4 feh msafaa ben el soraa we wl page*/
+*{margin:0;}
+
+/*this is body*/
+body
+{	
+	background:#DDD ;
+   	height:2210px; 
+}
+
+/*this is div bta3 el links */
+.header
+{	
+	font-family: 'Josefin Sans', sans-serif;
+	padding:15px 15px 0 15px;
+	width:1200px;
+	height:50px;
+	background-color:rgba(0,0,0,0.8);
+	margin:auto; 
+}
+
+/*these are links elly hya tabs(contact us, FAQ)*/
+.taps
+{
+	position:relative;
+	bottom:5px;	
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+
+/*tis is first link  ely hwaa bta3 WORLD TELESCOPE*/
+.firstlink
+{
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+}
+
+/*lmaa to2f 3la links*/
+.taps:hover 
+{
+	text-decoration:underline;	
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*lmaa to2f 3la WORLD TELESCOPE*/
+.firstlink:hover
+{
+	text-decoration:none;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*this is bar elly 3laa el shemall*/
+.bar
+{
+	font-family: 'Josefin Sans', sans-serif;
+	margin:auto;
+	background-color:#EEE;
+	width:230px;
+	height:1200px;
+	position:relative; right: 510px ;top: 40px; 
+}
+/* links login we register*/
+.user{
+   background-color:rgba(254,95,85,0.7);
+   color:white;
+   margin-left:15px ;
+   position:relative;top:30px;
+   text-decoration:none;
+   padding:10px;
+}
+
+/*this is paragraph bta3 contact us wee el nmr mobile elly fe el bar*/
+.p1{padding-left:8px;   position:relative;top:40px;}
+
+/*lmaa to2f 3laa login aw register*/
+.user:hover
+{
+	background-color:black;
+	color:white;
+}
+
+/*this is h3 bta3 ((search for offers)) elly fe el bar elly 3la el shemall*/
+h3
+{
+	font-size: 15px;
+	display:inline;
+	position:relative;top:35px;left:20px; 
+}	
+
+/*this is select elly fe el bar elly 3la el shemall*/
+select
+{	color: #555555;
+    width:200px;
+	height:30px;
+	margin:10px 0px 0px 10px;
+	font-size: 14px;
+	border: 1px solid #a94442;border-radius: 4px;
+	position:relative;top:40px; 
+}
+
+.container
+{	
+	margin:auto;
+	width:1000px;
+	height:1330px;
+	overflow: auto;
+	position:relative; left:160px;  bottom:1165px; 
+}
+figure{
+	width:450px;
+	display: inline-grid;
+	height:auto;
+	margin: 10px auto auto auto;
+	background-color: white;
+}
+.images{
+	width:450px;
+	margin:20px auto auto auto;
+	padding-bottom: 40px;
+}
+/*this is heading Intenational tours*/
+h1{font-weight:bold;}
+
+/*description bta3 el content*/
+.description
+{
+	background-color:#FFF;
+	color:black;
+	padding:10px;
+	margin-top:10px;
+	font-size:20px;
+	width:932px; 
+	text-indent:20px;
+}
+
+/* class kol soraaa*/
+.imges {margin:15px 50px 6px 0;float:left;
+} 
+
+a{
+	text-decoration:none;
+}
+.imges:hover{
+	background-color:rgba(228,44,100,0.6);
+}
+.tail{	position:relative;bottom:1100px;}
+table
+{	
+	background-color:rgba(242,244,246,1);
+	text-align:center;
+	border:1px groove red;
+	width:1250px;
+	margin:auto; 
+}
+th{font-size:30px;color:rgba(82,82,82,1);}
+
+.footer
+{
+	background:#333;
+	color:#FFF;
+	text-align:center;
+	padding: 10px 0 ;
+	margin : 10px auto auto auto;
+	width:1349px;
+}
+

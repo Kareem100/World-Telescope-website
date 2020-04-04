@@ -1,0 +1,163 @@
+/*this is 3lshan me2on4 feh msafaa ben el soraa we wl page*/
+*{margin:0;}
+
+/*this is body*/
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+	background:#DDD ;
+	height: auto;
+}
+
+/*this is div bta3 el links */
+.header
+{
+	padding:15px 15px 0 15px;
+	width:1220px;
+	height:50px;
+	background-color:rgba(0,0,0,0.8);
+	margin:auto;
+}
+
+/*these are links elly hya tabs(contact us, FAQ)*/
+.taps
+{
+	position:relative;
+	bottom:5px;
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+
+/*tis is first link  ely hwaa bta3 WORLD TELESCOPE*/
+.firstlink
+{
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+}
+
+/*lmaa to2f 3la links*/
+.taps:hover
+{
+	text-decoration:underline;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*lmaa to2f 3la WORLD TELESCOPE*/
+.firstlink:hover
+{
+	text-decoration:none;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+.content{
+	margin: auto;
+	width: 985px;
+	position: relative;bottom: 1261px;left:135px;
+	height: 1300px;
+}
+.all{
+	width: 1258px;
+	height: auto;
+	position: relative;
+	height: 1350px;
+	margin: auto;
+}
+figure{
+	display: inline-grid;
+	height:auto;
+	margin: 10px auto auto auto;
+	background-color: white;
+}
+.images{
+	margin:20px auto auto auto;
+	padding-bottom: 40px;
+}
+.description{
+	background-color: white;
+	padding:15px;
+	margin-top:5px;
+	width:950px;
+}
+/*this is bar elly 3laa el shemall*/
+/*kol sora fe el content*/
+.img:hover{
+   background-color:rgba(228,44,100,0.4);
+}
+.bar
+{
+	margin:auto;
+	background-color:#EEE;
+	width:230px;
+	height:1300px;
+	position:relative; right: 510px ;top: 40px;
+}
+a{
+	text-decoration:none;
+}
+/* links login we register*/
+.user{
+   background-color:rgba(254,95,85,0.7);
+   color:white;
+   margin-left:15px ;
+   position:relative;top:30px;
+   text-decoration:none;
+   padding:10px;
+}
+
+/*this is paragraph bta3 contact us wee el nmr mobile elly fe el bar*/
+.p1{padding-left:8px;   position:relative;top:40px;}
+
+/*lmaa to2f 3laa login aw register*/
+.user:hover
+{
+	background-color:black;
+	color:white;
+}
+
+/*this is h3 bta3 ((search for ofeers)) elly fe el bar elly 3la el shemall*/
+h3
+{
+	font-size: 15px;
+	display:inline;
+	position:relative;top:35px;left:20px;
+}
+
+/*this is select elly fe el bar elly 3la el shemall*/
+select
+{	color: #555555;
+    width:200px;
+	height:30px;
+	margin:10px 0px 0px 10px;
+	font-size: 14px;
+	border: 1px solid #a94442;border-radius: 4px;
+	position:relative;top:40px;
+}
+
+/*EDIT EDI EDIT EDIT*/
+
+
+.tail{	position:relative;bottom:-40px;}
+table
+{
+	background-color:rgba(242,244,246,1);
+	text-align:center;
+	border:1px groove red;
+	width:1255px;
+	margin:auto
+}
+th{font-size:30px;color:rgba(82,82,82,1);}
+
+.footer
+{
+	background:#333;
+	color:#FFF;
+	border: 1px solid red;
+	text-align:center;
+	padding: 10px 0 ;
+	margin : 10px auto auto auto;
+	width:1255px;
+}

@@ -1,0 +1,245 @@
+﻿*{margin:0}
+body {
+    background-color: #8ac6d1;
+    position:relative;
+    height:1000px;
+}
+
+.header
+{	
+	font-family: 'Josefin Sans', sans-serif;
+	padding:15px 15px 0 15px;
+	width:1210px;
+	height:50px;
+	background-color:rgba(0,0,0,0.8);
+	margin:auto; 
+}
+
+.taps
+{
+	position:relative;
+	bottom:5px;	
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+.firstlink
+{
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+}
+
+/*lmaa to2f 3la links*/
+.taps:hover 
+{
+	text-decoration:underline;	
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*lmaa to2f 3la WORLD TELESCOPE*/
+.firstlink:hover
+{
+	text-decoration:none;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+.bar
+{
+	font-family: 'Josefin Sans', sans-serif;
+	margin:auto;
+	background-color:#EEE;
+	width:230px;
+	height:700px;
+	position:relative; right: 510px ;top: 40px; 
+}
+/* links login we register*/
+.user{
+   background-color:rgba(254,95,85,0.7);
+   color:white;
+   margin-left:15px ;
+   position:relative;top:30px;
+   text-decoration:none;
+   padding:10px;
+}
+
+/*this is paragraph bta3 contact us wee el nmr mobile elly fe el bar*/
+.p1{padding-left:8px;   position:relative;top:40px;}
+
+/*lmaa to2f 3laa login aw register*/
+.user:hover
+{
+	background-color:black;
+	color:white;
+}
+
+/*this is h3 bta3 ((search for offers)) elly fe el bar elly 3la el shemall*/
+h3
+{
+	font-size: 15px;
+	display:inline;
+	position:relative;top:35px;left:20px; 
+}	
+
+/*this is select elly fe el bar elly 3la el shemall*/
+select
+{	color: #555555;
+    width:200px;
+	height:30px;
+	margin:10px 0px 0px 10px;
+	font-size: 14px;
+	border: 1px solid #a94442;border-radius: 4px;
+	position:relative;top:40px;  
+}
+.photo{
+   border:2px groove gold;
+   margin:auto;
+   position:relative;
+   width:1150px;
+}
+.photo:hover{
+    cursor:pointer;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    left: 115px;
+    bottom: 680px;
+    
+}
+
+.mySlides {
+    display:none;height:750px ;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none; 
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+/* Caption text */
+.text {
+    font-size: 15px;
+    font-weight:bold;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    bottom: 20px;
+    font-size: 20px;  
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position:relative;
+    
+}
+
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+details {
+    display:ruby;
+    height:100px;
+}
+
+
+.book {
+    position: relative;
+    left: 60px;
+    bottom: -15px;
+    font-size: 20px;
+    background-color: rgba(255,181,73,1);
+    text-decoration: none;
+    padding: 10px;
+}
+    .book:hover {
+        font-size: 25px;
+        color: red;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.8) ;
+    }
+
+.price span {
+    position: relative;
+    left: 10px;
+    bottom: -18px;
+    color: rgba(222,60,60,1);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;border:2px solid red;
+}
+/*
+.moo{border: 4px solid green;height:900px;}
+.gloff{border: 4px solid green;height:900px;}
+.acaciaa{border: 4px solid green;height:900px;}
+.achtii{border: 4px solid green;height:900px;}
+.pyrasmaa{border: 4px solid green;height:900px;}
+.marr{border: 4px solid green;height:900px;}
+*/
+
+

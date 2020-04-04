@@ -1,0 +1,170 @@
+/*this is 3lshan me2on4 feh msafaa ben el soraa we wl page*/
+*{margin:0;}
+
+/*this is body*/
+body
+{	
+	font-family: 'Josefin Sans', sans-serif;
+	background:#DDD ;
+   	height:5660px;
+}
+
+/*this is div bta3 el links */
+.header
+{	
+	padding:15px 15px 0 15px;
+	width:1220px;
+	height:50px;
+	background-color:rgba(0,0,0,0.8);
+	margin:auto;
+}
+
+/*these are links elly hya tabs(contact us, FAQ)*/
+.taps
+{
+	position:relative;
+	bottom:5px;	
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+
+/*tis is first link  ely hwaa bta3 WORLD TELESCOPE*/
+.firstlink
+{
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+}
+
+/*lmaa to2f 3la links*/
+.taps:hover 
+{
+	text-decoration:underline;	
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*lmaa to2f 3la WORLD TELESCOPE*/
+.firstlink:hover
+{
+	text-decoration:none;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*this is bar elly 3laa el shemall*/
+.bar
+{
+	margin:auto;
+	background-color:#EEE;
+	width:230px;
+	height:1200px;
+	position:relative; right: 510px ;top: 40px;
+}
+/* links login we register*/
+.user
+{
+   background-color:rgba(254,95,85,0.7);
+   color:white;
+   margin-left:15px ;
+   position:relative;top:30px;
+   text-decoration:none;
+   padding:10px;
+}
+
+/*this is paragraph bta3 contact us wee el nmr mobile elly fe el bar*/
+.p1{padding-left:8px;   position:relative;top:40px;}
+
+/*lmaa to2f 3laa login aw register*/
+.user:hover
+{
+	background-color:black;
+	color:white;
+}
+
+/*this is h3 bta3 ((search for ofeers)) elly fe el bar elly 3la el shemall*/
+h3
+{
+	font-size: 15px;
+	display:inline;
+	position:relative;top:35px;left:20px;
+}	
+
+/*this is select elly fe el bar elly 3la el shemall*/
+select
+{	color: #555555;
+    width:200px;
+	height:30px;
+	margin:10px 0px 0px 10px;
+	font-size: 14px;
+	border: 1px solid #a94442;border-radius: 4px;
+	position:relative;top:40px;
+}
+
+.content
+{	
+	margin:auto;
+	position:relative;left:130px;bottom:1160px;
+	width:980px;
+}
+
+h1{	font-size:50px;text-align:center;}
+.city{background-image:url(../Pictures/back2.jpg);padding-top:5px;}
+.script
+{
+	font-size:20px;
+	text-indent:20px;
+	line-height: 1.5;
+}
+.underBar
+{
+position:relative;right:310px;
+width:1340px; 
+text-align:center; 
+background-image:url("../Pictures/back1.jpg");
+background-attachment:fixed;
+}
+.price
+{
+	border:2px groove rgba(0,24,113,1);
+	font-size:30px;
+	font-weight:bold;
+	color:rgba(222,60,60,1);
+	width:600px;
+	height:40px;
+	position:relative;left:370px;
+	padding-top:10px;
+}
+.Book
+{	
+	position:relative;left:80px;bottom:2px;
+	font-size:20px;
+	background-color:rgba(255,181,73,1);
+	text-decoration:none;
+	padding:10px;
+}
+.Book:hover{font-size:25px;color:red;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.8)}
+
+.tail{	position:relative;bottom:1040px;}
+table
+{	
+	background-color:rgba(242,244,246,1);
+	text-align:center;
+	border:1px groove red;
+	width:1255px;
+	margin:auto;
+}
+th{font-size:30px;color:rgba(82,82,82,1);}
+
+.footer
+{
+	background:#333;
+	color:#FFF;
+	text-align:center;
+	padding: 10px 0 ;
+	margin : 10px auto auto auto;
+	width:1349px;
+}
+

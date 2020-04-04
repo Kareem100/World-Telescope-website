@@ -1,0 +1,127 @@
+/*this is 3lshan me2on4 feh msafaa ben el soraa we wl page*/
+*{margin:0;}
+
+/*this is body*/
+body
+{	
+	background-image:url("../Pictures/Login.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+   	height:500px;;
+	/*border:1px solid red;*/
+}
+
+/*this is div bta3 el links */
+.header
+{	
+	font-family: 'Josefin Sans', sans-serif;
+	padding:15px 15px 0 15px;
+	width:1220px;
+	height:50px;
+	background-color:rgba(102,0,102,0.5);
+	margin:auto;
+	position:relative;top:0px;
+}
+
+/*these are links elly hya tabs(contact us, FAQ)*/
+.taps
+{
+	position:relative;
+	bottom:5px;	
+	text-decoration:none ;
+	color:silver;
+	font-family:"comic sans ms";
+}
+
+/*tis is first link  ely hwaa bta3 WORLD TELESCOPE*/
+.firstlink
+{
+	text-decoration:none ;
+	color:silver;
+    font-size:30px;
+	font-weight:bold;
+}
+
+/*lmaa to2f 3la WORLD TELESCOPE*/
+.firstlink:hover
+{
+	text-decoration:none;
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+/*lmaa to2f 3la links*/
+.taps:hover 
+{
+	text-decoration:underline;	
+	color: rgba(30,227,207,0.5);
+	background-color: rgba(234,227,227,0.1);
+}
+
+.form{
+	background-color:rgba(242,244,246,0.5);
+	padding-left:15px;
+	border-radius:8px;
+	width:400px;
+	height:360px;
+	margin:auto;
+	position:relative;top:40px;
+	text-align:center;
+	
+}
+
+.input-container{
+	position:relative; top:70px;
+}
+img {margin:auto;position:relative;top:-180px;}
+.icon {
+  color: white;
+  text-align: center;
+  position:relative;
+  
+}
+.input-field {
+  width: 60%;
+  background-color:rgba(248,249,252,0.6);
+  padding: 10px;
+  border-radius:8px;
+  margin:auto;
+  margin-bottom:20px;
+}
+
+.btn
+{
+	padding:10px;
+	width:65%;
+	background-color:rgba(32,10,62,0.8);
+	color:black;
+	position:relative;left:10px;top:70px;
+	border-radius:8px;
+}
+.cbx
+{
+	position:relative;top:100px;
+	color:rgba(245,247,250,1);
+}
+span{position:relative;top:-5px;}
+
+.tail
+{	
+	margin:auto;
+	color: rgba(228,221,68,1);
+	text-align:center;
+	position:relative; left:20px;bottom:20px;
+	font-weight:bold;
+	width:400px;
+}
+
+.footer{
+	position:relative;left:20px;top:90px;
+	background:rgba(82,82,82,0.4);
+	color:#FFF;
+	text-align:center;
+	padding: 10px 0 ;
+	margin : auto ;
+	width:1000px;
+}
